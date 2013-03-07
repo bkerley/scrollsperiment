@@ -6,7 +6,9 @@
       body {
         background-color: green;
         -webkit-perspective: 350px;
-        -webkit-perspective-origin: 50% 10%; }
+        -webkit-perspective-origin: 50% 10%;
+        -moz-perspective: 350px;
+        -moz-perspective-origin: 50% 10%; }
       
       .content {
         width: 960px;
@@ -26,7 +28,8 @@
             width: 100%;
             border: 4px solid blue; }
             .content .background .imagefill.transformed {
-              -webkit-transform: translateZ(-200px); }
+              -webkit-transform: translateZ(-200px);
+              -moz-transform: translateZ(-200px); }
     </style>
   </head>
   <body>
